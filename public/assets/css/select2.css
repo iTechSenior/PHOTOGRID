@@ -1,0 +1,27 @@
+.select2-selection {
+  border-color: #d0d6de !important;
+}
+
+.select2-selection__rendered {
+  padding: 3px !important;
+}
+
+.select2-selection__choice {
+  background-color: #f1f4f8 !important;
+  border-color: #d8dbde !important;
+  color: #354052 !important;
+  display: inline-flex !important;
+  flex-direction: row-reverse !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  margin-right: 2px !important;
+  margin-top: 2px !important;
+  padding: 0.4rem 0.875rem !important;
+}
+
+.select2-selection__choice__remove {
+  font-size: 1rem !important;
+  line-height: 1.2 !important;
+  margin-left: 0.5rem !important;
+  margin-right: 0 !important;
+}

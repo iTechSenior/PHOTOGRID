@@ -1,0 +1,3737 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddProductsModal SnapShot match to snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddProductsModal
+    allProducts={
+      Array [
+        Object {
+          "id": 1,
+          "image": "https://ae01.alicdn.com/kf/HTB1N8Q9G7yWBuNjy0Fpq6yssXXal/Led-twig-lights-holiday-lights-branches-Christmas-ornaments-HJW.jpg",
+          "title": "Whisker",
+        },
+        Object {
+          "id": 2,
+          "image": "https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg",
+          "title": "Merry",
+        },
+        Object {
+          "id": 3,
+          "image": "https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg",
+          "title": "Apple",
+        },
+        Object {
+          "id": 4,
+          "image": "https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg",
+          "title": "Sample",
+        },
+      ]
+    }
+    handleToggleModal={[MockFunction]}
+    onProductsChange={[MockFunction]}
+    products={
+      Array [
+        1,
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="d-flex"
+        >
+          <div>
+            <div
+              className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+            >
+              <div
+                className="position-relative"
+              >
+                <input
+                  className="w-100"
+                  onChange={[Function]}
+                  placeholder="Type to filter product list..."
+                  type="text"
+                  value=""
+                />
+                <span
+                  className="input_icon input_icon-right icon__search"
+                />
+              </div>
+            </div>
+            <div
+              className="custom-dropdown__scroll-container assigned-products-scroll-container"
+            >
+              <div
+                style={
+                  Object {
+                    "minWidth": "100%",
+                    "width": "fit-content",
+                  }
+                }
+              >
+                <button
+                  className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <img
+                    alt="Merry"
+                    className="custom-dropdown__big-image"
+                    src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Merry
+                  </span>
+                </button>
+                <button
+                  className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <img
+                    alt="Apple"
+                    className="custom-dropdown__big-image"
+                    src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Apple
+                  </span>
+                </button>
+                <button
+                  className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <img
+                    alt="Sample"
+                    className="custom-dropdown__big-image"
+                    src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Sample
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="custom-dropdown__header custom-dropdown__header_wide px-3"
+            >
+              Is it one of these?
+            </div>
+            <div
+              className="custom-dropdown__scroll-container"
+            >
+              <button
+                className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                type="button"
+              >
+                <img
+                  alt="asdf"
+                  className="custom-dropdown__big-image"
+                  src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                />
+                <span
+                  className="flex-grow-1 ml-3"
+                >
+                  Chartreux
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>,
+        <div
+          className="custom-dropdown__footer d-flex justify-content-end"
+        >
+          <button
+            className="custom-dropdown__footer-button custom-dropdown__footer-button_default"
+            onClick={[MockFunction]}
+            type="button"
+          >
+            Cancel
+          </button>
+          <button
+            className="custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3"
+            onClick={[Function]}
+            type="button"
+          >
+            Add selected
+          </button>
+        </div>,
+      ],
+      "className": "assigned-product-add-modal dropdown-menu custom-dropdown__menu d-block m-0 p-0",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <div
+                className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+              >
+                <div
+                  className="position-relative"
+                >
+                  <input
+                    className="w-100"
+                    onChange={[Function]}
+                    placeholder="Type to filter product list..."
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    className="input_icon input_icon-right icon__search"
+                  />
+                </div>
+              </div>
+              <div
+                className="custom-dropdown__scroll-container assigned-products-scroll-container"
+              >
+                <div
+                  style={
+                    Object {
+                      "minWidth": "100%",
+                      "width": "fit-content",
+                    }
+                  }
+                >
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Merry"
+                      className="custom-dropdown__big-image"
+                      src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Merry
+                    </span>
+                  </button>
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Apple"
+                      className="custom-dropdown__big-image"
+                      src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Apple
+                    </span>
+                  </button>
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Sample"
+                      className="custom-dropdown__big-image"
+                      src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Sample
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>,
+            <div>
+              <div
+                className="custom-dropdown__header custom-dropdown__header_wide px-3"
+              >
+                Is it one of these?
+              </div>
+              <div
+                className="custom-dropdown__scroll-container"
+              >
+                <button
+                  className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                  type="button"
+                >
+                  <img
+                    alt="asdf"
+                    className="custom-dropdown__big-image"
+                    src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Chartreux
+                  </span>
+                </button>
+              </div>
+            </div>,
+          ],
+          "className": "d-flex",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+                >
+                  <div
+                    className="position-relative"
+                  >
+                    <input
+                      className="w-100"
+                      onChange={[Function]}
+                      placeholder="Type to filter product list..."
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      className="input_icon input_icon-right icon__search"
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="custom-dropdown__scroll-container assigned-products-scroll-container"
+                >
+                  <div
+                    style={
+                      Object {
+                        "minWidth": "100%",
+                        "width": "fit-content",
+                      }
+                    }
+                  >
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Merry"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Merry
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Apple"
+                        className="custom-dropdown__big-image"
+                        src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Apple
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Sample"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Sample
+                      </span>
+                    </button>
+                  </div>
+                </div>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="position-relative"
+                  >
+                    <input
+                      className="w-100"
+                      onChange={[Function]}
+                      placeholder="Type to filter product list..."
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      className="input_icon input_icon-right icon__search"
+                    />
+                  </div>,
+                  "className": "custom-dropdown__input_container custom-dropdown__input_container_wide p-1",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        className="w-100"
+                        onChange={[Function]}
+                        placeholder="Type to filter product list..."
+                        type="text"
+                        value=""
+                      />,
+                      <span
+                        className="input_icon input_icon-right icon__search"
+                      />,
+                    ],
+                    "className": "position-relative",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "w-100",
+                        "onChange": [Function],
+                        "placeholder": "Type to filter product list...",
+                        "type": "text",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "input_icon input_icon-right icon__search",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    style={
+                      Object {
+                        "minWidth": "100%",
+                        "width": "fit-content",
+                      }
+                    }
+                  >
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Merry"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Merry
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Apple"
+                        className="custom-dropdown__big-image"
+                        src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Apple
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Sample"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Sample
+                      </span>
+                    </button>
+                  </div>,
+                  "className": "custom-dropdown__scroll-container assigned-products-scroll-container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Merry"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Merry
+                        </span>
+                      </button>,
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Apple"
+                          className="custom-dropdown__big-image"
+                          src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Apple
+                        </span>
+                      </button>,
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Sample"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Sample
+                        </span>
+                      </button>,
+                    ],
+                    "style": Object {
+                      "minWidth": "100%",
+                      "width": "fit-content",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="Merry"
+                            className="custom-dropdown__big-image"
+                            src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                          />,
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Merry
+                          </span>,
+                          false,
+                        ],
+                        "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                        "onClick": [Function],
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "Merry",
+                            "className": "custom-dropdown__big-image",
+                            "src": "https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Merry",
+                            "className": "flex-grow-1 ml-3",
+                          },
+                          "ref": null,
+                          "rendered": "Merry",
+                          "type": "span",
+                        },
+                        false,
+                      ],
+                      "type": "button",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="Apple"
+                            className="custom-dropdown__big-image"
+                            src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                          />,
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Apple
+                          </span>,
+                          false,
+                        ],
+                        "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                        "onClick": [Function],
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "Apple",
+                            "className": "custom-dropdown__big-image",
+                            "src": "https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Apple",
+                            "className": "flex-grow-1 ml-3",
+                          },
+                          "ref": null,
+                          "rendered": "Apple",
+                          "type": "span",
+                        },
+                        false,
+                      ],
+                      "type": "button",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="Sample"
+                            className="custom-dropdown__big-image"
+                            src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                          />,
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Sample
+                          </span>,
+                          false,
+                        ],
+                        "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                        "onClick": [Function],
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "Sample",
+                            "className": "custom-dropdown__big-image",
+                            "src": "https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Sample",
+                            "className": "flex-grow-1 ml-3",
+                          },
+                          "ref": null,
+                          "rendered": "Sample",
+                          "type": "span",
+                        },
+                        false,
+                      ],
+                      "type": "button",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="custom-dropdown__header custom-dropdown__header_wide px-3"
+                >
+                  Is it one of these?
+                </div>,
+                <div
+                  className="custom-dropdown__scroll-container"
+                >
+                  <button
+                    className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                    type="button"
+                  >
+                    <img
+                      alt="asdf"
+                      className="custom-dropdown__big-image"
+                      src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Chartreux
+                    </span>
+                  </button>
+                </div>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Is it one of these?",
+                  "className": "custom-dropdown__header custom-dropdown__header_wide px-3",
+                },
+                "ref": null,
+                "rendered": "Is it one of these?",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                    type="button"
+                  >
+                    <img
+                      alt="asdf"
+                      className="custom-dropdown__big-image"
+                      src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Chartreux
+                    </span>
+                  </button>,
+                  "className": "custom-dropdown__scroll-container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="asdf"
+                        className="custom-dropdown__big-image"
+                        src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                      />,
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Chartreux
+                      </span>,
+                    ],
+                    "className": "dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center",
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "asdf",
+                        "className": "custom-dropdown__big-image",
+                        "src": "https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Chartreux",
+                        "className": "flex-grow-1 ml-3",
+                      },
+                      "ref": null,
+                      "rendered": "Chartreux",
+                      "type": "span",
+                    },
+                  ],
+                  "type": "button",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="custom-dropdown__footer-button custom-dropdown__footer-button_default"
+              onClick={[MockFunction]}
+              type="button"
+            >
+              Cancel
+            </button>,
+            <button
+              className="custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3"
+              onClick={[Function]}
+              type="button"
+            >
+              Add selected
+            </button>,
+          ],
+          "className": "custom-dropdown__footer d-flex justify-content-end",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Cancel",
+              "className": "custom-dropdown__footer-button custom-dropdown__footer-button_default",
+              "onClick": [MockFunction],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "Cancel",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Add selected",
+              "className": "custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "Add selected",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="d-flex"
+          >
+            <div>
+              <div
+                className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+              >
+                <div
+                  className="position-relative"
+                >
+                  <input
+                    className="w-100"
+                    onChange={[Function]}
+                    placeholder="Type to filter product list..."
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    className="input_icon input_icon-right icon__search"
+                  />
+                </div>
+              </div>
+              <div
+                className="custom-dropdown__scroll-container assigned-products-scroll-container"
+              >
+                <div
+                  style={
+                    Object {
+                      "minWidth": "100%",
+                      "width": "fit-content",
+                    }
+                  }
+                >
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Merry"
+                      className="custom-dropdown__big-image"
+                      src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Merry
+                    </span>
+                  </button>
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Apple"
+                      className="custom-dropdown__big-image"
+                      src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Apple
+                    </span>
+                  </button>
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Sample"
+                      className="custom-dropdown__big-image"
+                      src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Sample
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                className="custom-dropdown__header custom-dropdown__header_wide px-3"
+              >
+                Is it one of these?
+              </div>
+              <div
+                className="custom-dropdown__scroll-container"
+              >
+                <button
+                  className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                  type="button"
+                >
+                  <img
+                    alt="asdf"
+                    className="custom-dropdown__big-image"
+                    src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Chartreux
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="custom-dropdown__footer d-flex justify-content-end"
+          >
+            <button
+              className="custom-dropdown__footer-button custom-dropdown__footer-button_default"
+              onClick={[MockFunction]}
+              type="button"
+            >
+              Cancel
+            </button>
+            <button
+              className="custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3"
+              onClick={[Function]}
+              type="button"
+            >
+              Add selected
+            </button>
+          </div>,
+        ],
+        "className": "assigned-product-add-modal dropdown-menu custom-dropdown__menu d-block m-0 p-0",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                <div
+                  className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+                >
+                  <div
+                    className="position-relative"
+                  >
+                    <input
+                      className="w-100"
+                      onChange={[Function]}
+                      placeholder="Type to filter product list..."
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      className="input_icon input_icon-right icon__search"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="custom-dropdown__scroll-container assigned-products-scroll-container"
+                >
+                  <div
+                    style={
+                      Object {
+                        "minWidth": "100%",
+                        "width": "fit-content",
+                      }
+                    }
+                  >
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Merry"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Merry
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Apple"
+                        className="custom-dropdown__big-image"
+                        src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Apple
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Sample"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Sample
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>,
+              <div>
+                <div
+                  className="custom-dropdown__header custom-dropdown__header_wide px-3"
+                >
+                  Is it one of these?
+                </div>
+                <div
+                  className="custom-dropdown__scroll-container"
+                >
+                  <button
+                    className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                    type="button"
+                  >
+                    <img
+                      alt="asdf"
+                      className="custom-dropdown__big-image"
+                      src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Chartreux
+                    </span>
+                  </button>
+                </div>
+              </div>,
+            ],
+            "className": "d-flex",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+                  >
+                    <div
+                      className="position-relative"
+                    >
+                      <input
+                        className="w-100"
+                        onChange={[Function]}
+                        placeholder="Type to filter product list..."
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        className="input_icon input_icon-right icon__search"
+                      />
+                    </div>
+                  </div>,
+                  <div
+                    className="custom-dropdown__scroll-container assigned-products-scroll-container"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "minWidth": "100%",
+                          "width": "fit-content",
+                        }
+                      }
+                    >
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Merry"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Merry
+                        </span>
+                      </button>
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Apple"
+                          className="custom-dropdown__big-image"
+                          src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Apple
+                        </span>
+                      </button>
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Sample"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Sample
+                        </span>
+                      </button>
+                    </div>
+                  </div>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="position-relative"
+                    >
+                      <input
+                        className="w-100"
+                        onChange={[Function]}
+                        placeholder="Type to filter product list..."
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        className="input_icon input_icon-right icon__search"
+                      />
+                    </div>,
+                    "className": "custom-dropdown__input_container custom-dropdown__input_container_wide p-1",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="w-100"
+                          onChange={[Function]}
+                          placeholder="Type to filter product list..."
+                          type="text"
+                          value=""
+                        />,
+                        <span
+                          className="input_icon input_icon-right icon__search"
+                        />,
+                      ],
+                      "className": "position-relative",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "w-100",
+                          "onChange": [Function],
+                          "placeholder": "Type to filter product list...",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "input_icon input_icon-right icon__search",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      style={
+                        Object {
+                          "minWidth": "100%",
+                          "width": "fit-content",
+                        }
+                      }
+                    >
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Merry"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Merry
+                        </span>
+                      </button>
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Apple"
+                          className="custom-dropdown__big-image"
+                          src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Apple
+                        </span>
+                      </button>
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Sample"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Sample
+                        </span>
+                      </button>
+                    </div>,
+                    "className": "custom-dropdown__scroll-container assigned-products-scroll-container",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <button
+                          className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <img
+                            alt="Merry"
+                            className="custom-dropdown__big-image"
+                            src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                          />
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Merry
+                          </span>
+                        </button>,
+                        <button
+                          className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <img
+                            alt="Apple"
+                            className="custom-dropdown__big-image"
+                            src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                          />
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Apple
+                          </span>
+                        </button>,
+                        <button
+                          className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <img
+                            alt="Sample"
+                            className="custom-dropdown__big-image"
+                            src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                          />
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Sample
+                          </span>
+                        </button>,
+                      ],
+                      "style": Object {
+                        "minWidth": "100%",
+                        "width": "fit-content",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <img
+                              alt="Merry"
+                              className="custom-dropdown__big-image"
+                              src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                            />,
+                            <span
+                              className="flex-grow-1 ml-3"
+                            >
+                              Merry
+                            </span>,
+                            false,
+                          ],
+                          "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                          "onClick": [Function],
+                          "type": "button",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Merry",
+                              "className": "custom-dropdown__big-image",
+                              "src": "https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Merry",
+                              "className": "flex-grow-1 ml-3",
+                            },
+                            "ref": null,
+                            "rendered": "Merry",
+                            "type": "span",
+                          },
+                          false,
+                        ],
+                        "type": "button",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "3",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <img
+                              alt="Apple"
+                              className="custom-dropdown__big-image"
+                              src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                            />,
+                            <span
+                              className="flex-grow-1 ml-3"
+                            >
+                              Apple
+                            </span>,
+                            false,
+                          ],
+                          "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                          "onClick": [Function],
+                          "type": "button",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Apple",
+                              "className": "custom-dropdown__big-image",
+                              "src": "https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Apple",
+                              "className": "flex-grow-1 ml-3",
+                            },
+                            "ref": null,
+                            "rendered": "Apple",
+                            "type": "span",
+                          },
+                          false,
+                        ],
+                        "type": "button",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "4",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <img
+                              alt="Sample"
+                              className="custom-dropdown__big-image"
+                              src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                            />,
+                            <span
+                              className="flex-grow-1 ml-3"
+                            >
+                              Sample
+                            </span>,
+                            false,
+                          ],
+                          "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                          "onClick": [Function],
+                          "type": "button",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Sample",
+                              "className": "custom-dropdown__big-image",
+                              "src": "https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Sample",
+                              "className": "flex-grow-1 ml-3",
+                            },
+                            "ref": null,
+                            "rendered": "Sample",
+                            "type": "span",
+                          },
+                          false,
+                        ],
+                        "type": "button",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="custom-dropdown__header custom-dropdown__header_wide px-3"
+                  >
+                    Is it one of these?
+                  </div>,
+                  <div
+                    className="custom-dropdown__scroll-container"
+                  >
+                    <button
+                      className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                      type="button"
+                    >
+                      <img
+                        alt="asdf"
+                        className="custom-dropdown__big-image"
+                        src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Chartreux
+                      </span>
+                    </button>
+                  </div>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Is it one of these?",
+                    "className": "custom-dropdown__header custom-dropdown__header_wide px-3",
+                  },
+                  "ref": null,
+                  "rendered": "Is it one of these?",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                      type="button"
+                    >
+                      <img
+                        alt="asdf"
+                        className="custom-dropdown__big-image"
+                        src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Chartreux
+                      </span>
+                    </button>,
+                    "className": "custom-dropdown__scroll-container",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="asdf"
+                          className="custom-dropdown__big-image"
+                          src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                        />,
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Chartreux
+                        </span>,
+                      ],
+                      "className": "dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center",
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "asdf",
+                          "className": "custom-dropdown__big-image",
+                          "src": "https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Chartreux",
+                          "className": "flex-grow-1 ml-3",
+                        },
+                        "ref": null,
+                        "rendered": "Chartreux",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="custom-dropdown__footer-button custom-dropdown__footer-button_default"
+                onClick={[MockFunction]}
+                type="button"
+              >
+                Cancel
+              </button>,
+              <button
+                className="custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3"
+                onClick={[Function]}
+                type="button"
+              >
+                Add selected
+              </button>,
+            ],
+            "className": "custom-dropdown__footer d-flex justify-content-end",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Cancel",
+                "className": "custom-dropdown__footer-button custom-dropdown__footer-button_default",
+                "onClick": [MockFunction],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "Cancel",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add selected",
+                "className": "custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "Add selected",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`ProductMan SnapShot match to snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddProductsModal
+    allProducts={
+      Array [
+        Object {
+          "id": 1,
+          "image": "https://ae01.alicdn.com/kf/HTB1N8Q9G7yWBuNjy0Fpq6yssXXal/Led-twig-lights-holiday-lights-branches-Christmas-ornaments-HJW.jpg",
+          "title": "Whisker",
+        },
+        Object {
+          "id": 2,
+          "image": "https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg",
+          "title": "Merry",
+        },
+        Object {
+          "id": 3,
+          "image": "https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg",
+          "title": "Apple",
+        },
+        Object {
+          "id": 4,
+          "image": "https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg",
+          "title": "Sample",
+        },
+      ]
+    }
+    handleToggleModal={[MockFunction]}
+    onProductsChange={[MockFunction]}
+    products={
+      Array [
+        1,
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="d-flex"
+        >
+          <div>
+            <div
+              className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+            >
+              <div
+                className="position-relative"
+              >
+                <input
+                  className="w-100"
+                  onChange={[Function]}
+                  placeholder="Type to filter product list..."
+                  type="text"
+                  value=""
+                />
+                <span
+                  className="input_icon input_icon-right icon__search"
+                />
+              </div>
+            </div>
+            <div
+              className="custom-dropdown__scroll-container assigned-products-scroll-container"
+            >
+              <div
+                style={
+                  Object {
+                    "minWidth": "100%",
+                    "width": "fit-content",
+                  }
+                }
+              >
+                <button
+                  className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <img
+                    alt="Merry"
+                    className="custom-dropdown__big-image"
+                    src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Merry
+                  </span>
+                </button>
+                <button
+                  className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <img
+                    alt="Apple"
+                    className="custom-dropdown__big-image"
+                    src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Apple
+                  </span>
+                </button>
+                <button
+                  className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <img
+                    alt="Sample"
+                    className="custom-dropdown__big-image"
+                    src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Sample
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="custom-dropdown__header custom-dropdown__header_wide px-3"
+            >
+              Is it one of these?
+            </div>
+            <div
+              className="custom-dropdown__scroll-container"
+            >
+              <button
+                className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                type="button"
+              >
+                <img
+                  alt="asdf"
+                  className="custom-dropdown__big-image"
+                  src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                />
+                <span
+                  className="flex-grow-1 ml-3"
+                >
+                  Chartreux
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>,
+        <div
+          className="custom-dropdown__footer d-flex justify-content-end"
+        >
+          <button
+            className="custom-dropdown__footer-button custom-dropdown__footer-button_default"
+            onClick={[MockFunction]}
+            type="button"
+          >
+            Cancel
+          </button>
+          <button
+            className="custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3"
+            onClick={[Function]}
+            type="button"
+          >
+            Add selected
+          </button>
+        </div>,
+      ],
+      "className": "assigned-product-add-modal dropdown-menu custom-dropdown__menu d-block m-0 p-0",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <div
+                className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+              >
+                <div
+                  className="position-relative"
+                >
+                  <input
+                    className="w-100"
+                    onChange={[Function]}
+                    placeholder="Type to filter product list..."
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    className="input_icon input_icon-right icon__search"
+                  />
+                </div>
+              </div>
+              <div
+                className="custom-dropdown__scroll-container assigned-products-scroll-container"
+              >
+                <div
+                  style={
+                    Object {
+                      "minWidth": "100%",
+                      "width": "fit-content",
+                    }
+                  }
+                >
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Merry"
+                      className="custom-dropdown__big-image"
+                      src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Merry
+                    </span>
+                  </button>
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Apple"
+                      className="custom-dropdown__big-image"
+                      src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Apple
+                    </span>
+                  </button>
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Sample"
+                      className="custom-dropdown__big-image"
+                      src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Sample
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>,
+            <div>
+              <div
+                className="custom-dropdown__header custom-dropdown__header_wide px-3"
+              >
+                Is it one of these?
+              </div>
+              <div
+                className="custom-dropdown__scroll-container"
+              >
+                <button
+                  className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                  type="button"
+                >
+                  <img
+                    alt="asdf"
+                    className="custom-dropdown__big-image"
+                    src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Chartreux
+                  </span>
+                </button>
+              </div>
+            </div>,
+          ],
+          "className": "d-flex",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+                >
+                  <div
+                    className="position-relative"
+                  >
+                    <input
+                      className="w-100"
+                      onChange={[Function]}
+                      placeholder="Type to filter product list..."
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      className="input_icon input_icon-right icon__search"
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="custom-dropdown__scroll-container assigned-products-scroll-container"
+                >
+                  <div
+                    style={
+                      Object {
+                        "minWidth": "100%",
+                        "width": "fit-content",
+                      }
+                    }
+                  >
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Merry"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Merry
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Apple"
+                        className="custom-dropdown__big-image"
+                        src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Apple
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Sample"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Sample
+                      </span>
+                    </button>
+                  </div>
+                </div>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="position-relative"
+                  >
+                    <input
+                      className="w-100"
+                      onChange={[Function]}
+                      placeholder="Type to filter product list..."
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      className="input_icon input_icon-right icon__search"
+                    />
+                  </div>,
+                  "className": "custom-dropdown__input_container custom-dropdown__input_container_wide p-1",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        className="w-100"
+                        onChange={[Function]}
+                        placeholder="Type to filter product list..."
+                        type="text"
+                        value=""
+                      />,
+                      <span
+                        className="input_icon input_icon-right icon__search"
+                      />,
+                    ],
+                    "className": "position-relative",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "w-100",
+                        "onChange": [Function],
+                        "placeholder": "Type to filter product list...",
+                        "type": "text",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "input_icon input_icon-right icon__search",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    style={
+                      Object {
+                        "minWidth": "100%",
+                        "width": "fit-content",
+                      }
+                    }
+                  >
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Merry"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Merry
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Apple"
+                        className="custom-dropdown__big-image"
+                        src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Apple
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Sample"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Sample
+                      </span>
+                    </button>
+                  </div>,
+                  "className": "custom-dropdown__scroll-container assigned-products-scroll-container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Merry"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Merry
+                        </span>
+                      </button>,
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Apple"
+                          className="custom-dropdown__big-image"
+                          src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Apple
+                        </span>
+                      </button>,
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Sample"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Sample
+                        </span>
+                      </button>,
+                    ],
+                    "style": Object {
+                      "minWidth": "100%",
+                      "width": "fit-content",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="Merry"
+                            className="custom-dropdown__big-image"
+                            src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                          />,
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Merry
+                          </span>,
+                          false,
+                        ],
+                        "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                        "onClick": [Function],
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "Merry",
+                            "className": "custom-dropdown__big-image",
+                            "src": "https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Merry",
+                            "className": "flex-grow-1 ml-3",
+                          },
+                          "ref": null,
+                          "rendered": "Merry",
+                          "type": "span",
+                        },
+                        false,
+                      ],
+                      "type": "button",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="Apple"
+                            className="custom-dropdown__big-image"
+                            src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                          />,
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Apple
+                          </span>,
+                          false,
+                        ],
+                        "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                        "onClick": [Function],
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "Apple",
+                            "className": "custom-dropdown__big-image",
+                            "src": "https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Apple",
+                            "className": "flex-grow-1 ml-3",
+                          },
+                          "ref": null,
+                          "rendered": "Apple",
+                          "type": "span",
+                        },
+                        false,
+                      ],
+                      "type": "button",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="Sample"
+                            className="custom-dropdown__big-image"
+                            src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                          />,
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Sample
+                          </span>,
+                          false,
+                        ],
+                        "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                        "onClick": [Function],
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "Sample",
+                            "className": "custom-dropdown__big-image",
+                            "src": "https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Sample",
+                            "className": "flex-grow-1 ml-3",
+                          },
+                          "ref": null,
+                          "rendered": "Sample",
+                          "type": "span",
+                        },
+                        false,
+                      ],
+                      "type": "button",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="custom-dropdown__header custom-dropdown__header_wide px-3"
+                >
+                  Is it one of these?
+                </div>,
+                <div
+                  className="custom-dropdown__scroll-container"
+                >
+                  <button
+                    className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                    type="button"
+                  >
+                    <img
+                      alt="asdf"
+                      className="custom-dropdown__big-image"
+                      src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Chartreux
+                    </span>
+                  </button>
+                </div>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Is it one of these?",
+                  "className": "custom-dropdown__header custom-dropdown__header_wide px-3",
+                },
+                "ref": null,
+                "rendered": "Is it one of these?",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                    type="button"
+                  >
+                    <img
+                      alt="asdf"
+                      className="custom-dropdown__big-image"
+                      src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Chartreux
+                    </span>
+                  </button>,
+                  "className": "custom-dropdown__scroll-container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="asdf"
+                        className="custom-dropdown__big-image"
+                        src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                      />,
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Chartreux
+                      </span>,
+                    ],
+                    "className": "dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center",
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "asdf",
+                        "className": "custom-dropdown__big-image",
+                        "src": "https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Chartreux",
+                        "className": "flex-grow-1 ml-3",
+                      },
+                      "ref": null,
+                      "rendered": "Chartreux",
+                      "type": "span",
+                    },
+                  ],
+                  "type": "button",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="custom-dropdown__footer-button custom-dropdown__footer-button_default"
+              onClick={[MockFunction]}
+              type="button"
+            >
+              Cancel
+            </button>,
+            <button
+              className="custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3"
+              onClick={[Function]}
+              type="button"
+            >
+              Add selected
+            </button>,
+          ],
+          "className": "custom-dropdown__footer d-flex justify-content-end",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Cancel",
+              "className": "custom-dropdown__footer-button custom-dropdown__footer-button_default",
+              "onClick": [MockFunction],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "Cancel",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Add selected",
+              "className": "custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "Add selected",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="d-flex"
+          >
+            <div>
+              <div
+                className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+              >
+                <div
+                  className="position-relative"
+                >
+                  <input
+                    className="w-100"
+                    onChange={[Function]}
+                    placeholder="Type to filter product list..."
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    className="input_icon input_icon-right icon__search"
+                  />
+                </div>
+              </div>
+              <div
+                className="custom-dropdown__scroll-container assigned-products-scroll-container"
+              >
+                <div
+                  style={
+                    Object {
+                      "minWidth": "100%",
+                      "width": "fit-content",
+                    }
+                  }
+                >
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Merry"
+                      className="custom-dropdown__big-image"
+                      src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Merry
+                    </span>
+                  </button>
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Apple"
+                      className="custom-dropdown__big-image"
+                      src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Apple
+                    </span>
+                  </button>
+                  <button
+                    className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <img
+                      alt="Sample"
+                      className="custom-dropdown__big-image"
+                      src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Sample
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                className="custom-dropdown__header custom-dropdown__header_wide px-3"
+              >
+                Is it one of these?
+              </div>
+              <div
+                className="custom-dropdown__scroll-container"
+              >
+                <button
+                  className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                  type="button"
+                >
+                  <img
+                    alt="asdf"
+                    className="custom-dropdown__big-image"
+                    src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                  />
+                  <span
+                    className="flex-grow-1 ml-3"
+                  >
+                    Chartreux
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="custom-dropdown__footer d-flex justify-content-end"
+          >
+            <button
+              className="custom-dropdown__footer-button custom-dropdown__footer-button_default"
+              onClick={[MockFunction]}
+              type="button"
+            >
+              Cancel
+            </button>
+            <button
+              className="custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3"
+              onClick={[Function]}
+              type="button"
+            >
+              Add selected
+            </button>
+          </div>,
+        ],
+        "className": "assigned-product-add-modal dropdown-menu custom-dropdown__menu d-block m-0 p-0",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                <div
+                  className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+                >
+                  <div
+                    className="position-relative"
+                  >
+                    <input
+                      className="w-100"
+                      onChange={[Function]}
+                      placeholder="Type to filter product list..."
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      className="input_icon input_icon-right icon__search"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="custom-dropdown__scroll-container assigned-products-scroll-container"
+                >
+                  <div
+                    style={
+                      Object {
+                        "minWidth": "100%",
+                        "width": "fit-content",
+                      }
+                    }
+                  >
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Merry"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Merry
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Apple"
+                        className="custom-dropdown__big-image"
+                        src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Apple
+                      </span>
+                    </button>
+                    <button
+                      className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <img
+                        alt="Sample"
+                        className="custom-dropdown__big-image"
+                        src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Sample
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>,
+              <div>
+                <div
+                  className="custom-dropdown__header custom-dropdown__header_wide px-3"
+                >
+                  Is it one of these?
+                </div>
+                <div
+                  className="custom-dropdown__scroll-container"
+                >
+                  <button
+                    className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                    type="button"
+                  >
+                    <img
+                      alt="asdf"
+                      className="custom-dropdown__big-image"
+                      src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                    />
+                    <span
+                      className="flex-grow-1 ml-3"
+                    >
+                      Chartreux
+                    </span>
+                  </button>
+                </div>
+              </div>,
+            ],
+            "className": "d-flex",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="custom-dropdown__input_container custom-dropdown__input_container_wide p-1"
+                  >
+                    <div
+                      className="position-relative"
+                    >
+                      <input
+                        className="w-100"
+                        onChange={[Function]}
+                        placeholder="Type to filter product list..."
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        className="input_icon input_icon-right icon__search"
+                      />
+                    </div>
+                  </div>,
+                  <div
+                    className="custom-dropdown__scroll-container assigned-products-scroll-container"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "minWidth": "100%",
+                          "width": "fit-content",
+                        }
+                      }
+                    >
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Merry"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Merry
+                        </span>
+                      </button>
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Apple"
+                          className="custom-dropdown__big-image"
+                          src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Apple
+                        </span>
+                      </button>
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Sample"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Sample
+                        </span>
+                      </button>
+                    </div>
+                  </div>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="position-relative"
+                    >
+                      <input
+                        className="w-100"
+                        onChange={[Function]}
+                        placeholder="Type to filter product list..."
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        className="input_icon input_icon-right icon__search"
+                      />
+                    </div>,
+                    "className": "custom-dropdown__input_container custom-dropdown__input_container_wide p-1",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="w-100"
+                          onChange={[Function]}
+                          placeholder="Type to filter product list..."
+                          type="text"
+                          value=""
+                        />,
+                        <span
+                          className="input_icon input_icon-right icon__search"
+                        />,
+                      ],
+                      "className": "position-relative",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "w-100",
+                          "onChange": [Function],
+                          "placeholder": "Type to filter product list...",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "input_icon input_icon-right icon__search",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      style={
+                        Object {
+                          "minWidth": "100%",
+                          "width": "fit-content",
+                        }
+                      }
+                    >
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Merry"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Merry
+                        </span>
+                      </button>
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Apple"
+                          className="custom-dropdown__big-image"
+                          src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Apple
+                        </span>
+                      </button>
+                      <button
+                        className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <img
+                          alt="Sample"
+                          className="custom-dropdown__big-image"
+                          src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                        />
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Sample
+                        </span>
+                      </button>
+                    </div>,
+                    "className": "custom-dropdown__scroll-container assigned-products-scroll-container",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <button
+                          className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <img
+                            alt="Merry"
+                            className="custom-dropdown__big-image"
+                            src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                          />
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Merry
+                          </span>
+                        </button>,
+                        <button
+                          className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <img
+                            alt="Apple"
+                            className="custom-dropdown__big-image"
+                            src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                          />
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Apple
+                          </span>
+                        </button>,
+                        <button
+                          className="dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <img
+                            alt="Sample"
+                            className="custom-dropdown__big-image"
+                            src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                          />
+                          <span
+                            className="flex-grow-1 ml-3"
+                          >
+                            Sample
+                          </span>
+                        </button>,
+                      ],
+                      "style": Object {
+                        "minWidth": "100%",
+                        "width": "fit-content",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <img
+                              alt="Merry"
+                              className="custom-dropdown__big-image"
+                              src="https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg"
+                            />,
+                            <span
+                              className="flex-grow-1 ml-3"
+                            >
+                              Merry
+                            </span>,
+                            false,
+                          ],
+                          "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                          "onClick": [Function],
+                          "type": "button",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Merry",
+                              "className": "custom-dropdown__big-image",
+                              "src": "https://ae01.alicdn.com/kf/HTB1Cvrtl8jTBKNjSZFuq6z0HFXaa/Automatic-Toothpas…oothbrush-Holder-with-Cups-No-Nail-Wall-Stand-Shelf-Bathroom-Organizer.jpg",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Merry",
+                              "className": "flex-grow-1 ml-3",
+                            },
+                            "ref": null,
+                            "rendered": "Merry",
+                            "type": "span",
+                          },
+                          false,
+                        ],
+                        "type": "button",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "3",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <img
+                              alt="Apple"
+                              className="custom-dropdown__big-image"
+                              src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg"
+                            />,
+                            <span
+                              className="flex-grow-1 ml-3"
+                            >
+                              Apple
+                            </span>,
+                            false,
+                          ],
+                          "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                          "onClick": [Function],
+                          "type": "button",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Apple",
+                              "className": "custom-dropdown__big-image",
+                              "src": "https://img.staticbg.com/thumb/large/oaupload/banggood/images/9B/D2/54eafdb3-7f9c-4d56-9522-73c12c2fe2c3.jpg",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Apple",
+                              "className": "flex-grow-1 ml-3",
+                            },
+                            "ref": null,
+                            "rendered": "Apple",
+                            "type": "span",
+                          },
+                          false,
+                        ],
+                        "type": "button",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "4",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <img
+                              alt="Sample"
+                              className="custom-dropdown__big-image"
+                              src="https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg"
+                            />,
+                            <span
+                              className="flex-grow-1 ml-3"
+                            >
+                              Sample
+                            </span>,
+                            false,
+                          ],
+                          "className": "dropdown-item custom-dropdown__item d-flex align-items-center custom-dropdown__item_default",
+                          "onClick": [Function],
+                          "type": "button",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Sample",
+                              "className": "custom-dropdown__big-image",
+                              "src": "https://ae01.alicdn.com/kf/HTB1KwN_cGmgSKJjSsplq6yICpXai/Gamiss-Spring-Autu…ual-Tshirt-Plus-Size-Halloween-Batwing-Loose-Long-Sleeve-Solid-Color-T.jpg",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Sample",
+                              "className": "flex-grow-1 ml-3",
+                            },
+                            "ref": null,
+                            "rendered": "Sample",
+                            "type": "span",
+                          },
+                          false,
+                        ],
+                        "type": "button",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="custom-dropdown__header custom-dropdown__header_wide px-3"
+                  >
+                    Is it one of these?
+                  </div>,
+                  <div
+                    className="custom-dropdown__scroll-container"
+                  >
+                    <button
+                      className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                      type="button"
+                    >
+                      <img
+                        alt="asdf"
+                        className="custom-dropdown__big-image"
+                        src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Chartreux
+                      </span>
+                    </button>
+                  </div>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Is it one of these?",
+                    "className": "custom-dropdown__header custom-dropdown__header_wide px-3",
+                  },
+                  "ref": null,
+                  "rendered": "Is it one of these?",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      className="dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center"
+                      type="button"
+                    >
+                      <img
+                        alt="asdf"
+                        className="custom-dropdown__big-image"
+                        src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                      />
+                      <span
+                        className="flex-grow-1 ml-3"
+                      >
+                        Chartreux
+                      </span>
+                    </button>,
+                    "className": "custom-dropdown__scroll-container",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="asdf"
+                          className="custom-dropdown__big-image"
+                          src="https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg"
+                        />,
+                        <span
+                          className="flex-grow-1 ml-3"
+                        >
+                          Chartreux
+                        </span>,
+                      ],
+                      "className": "dropdown-item custom-dropdown__item custom-dropdown__item_default d-flex align-items-center",
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "asdf",
+                          "className": "custom-dropdown__big-image",
+                          "src": "https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2718_chartreux-460x290-460x290.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Chartreux",
+                          "className": "flex-grow-1 ml-3",
+                        },
+                        "ref": null,
+                        "rendered": "Chartreux",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="custom-dropdown__footer-button custom-dropdown__footer-button_default"
+                onClick={[MockFunction]}
+                type="button"
+              >
+                Cancel
+              </button>,
+              <button
+                className="custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3"
+                onClick={[Function]}
+                type="button"
+              >
+                Add selected
+              </button>,
+            ],
+            "className": "custom-dropdown__footer d-flex justify-content-end",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Cancel",
+                "className": "custom-dropdown__footer-button custom-dropdown__footer-button_default",
+                "onClick": [MockFunction],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "Cancel",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add selected",
+                "className": "custom-dropdown__footer-button custom-dropdown__footer-button_action ml-3",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "Add selected",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

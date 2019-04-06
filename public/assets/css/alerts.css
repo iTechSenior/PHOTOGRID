@@ -1,0 +1,33 @@
+.custom-alert {
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1.3125;
+  width: 520px;
+  padding: 0.625rem 1rem;
+}
+
+.custom-alert__green {
+  background-color: #39b54a;
+}
+
+.custom-alert__grey {
+  background-color: #516173;
+}
+
+.custom-alert__yellow {
+  background-color: #f5a308;
+}
+
+.custom-alert__red {
+  background-color: #f85359;
+}
+
+.custom-alert__close-button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  padding: 0;
+}

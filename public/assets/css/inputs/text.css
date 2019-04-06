@@ -1,0 +1,168 @@
+input:not([type]),
+input[type="text"] {
+  border: 1px solid #d0d6de;
+  border-radius: 4px;
+  color: #354052;
+  font-size: 0.875rem;
+  outline: none;
+  height: 2.25rem;
+  padding: 0.5rem 0.75rem;
+}
+
+textarea {
+  border: 1px solid #d0d6de;
+  border-radius: 4px;
+  color: #354052;
+  box-shadow: none;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  outline: none;
+  resize: none;
+  padding: 0.5rem 0.75rem;
+}
+
+textarea:disabled {
+  background-color: #fbfcfd;
+  color: #afb5bc;
+}
+
+textarea:read-only {
+  background-color: #e9edf1;
+  border-color: #d0d6de;
+}
+
+input:not([type]).input_hover,
+input[type="text"].input_hover {
+  border-color: #bfc4cb;
+}
+
+input:not([type]).input_active,
+input[type="text"].input_active {
+  border-color: #a9b0b8;
+}
+
+input:not([type]).input_invalid,
+input[type="text"].input_invalid,
+.textarea_invalid {
+  border-color: #ed1c24;
+}
+
+input:not([type]).input_valid,
+input[type="text"].input_valid {
+  border-color: #1bb934;
+}
+
+input:not([type]).input_valid:disabled,
+input[type="text"].input_valid:disabled {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.input_with-icon {
+  position: relative;
+  padding-left: 2.75rem !important;
+}
+
+.input_icon {
+  color: #c5d0de;
+  display: inline-block;
+  font-family: 'IcoMoon';
+  font-size: 1rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.input_icon-left {
+  left: 1rem;
+  top: 0.625rem;
+}
+
+.input_status-icon ,
+.input_icon-right {
+  right: 0.625rem;
+  top: 0.625rem;
+}
+
+input:not([type]).input_invalid ~ .input_icon-left,
+input[type="text"].input_invalid ~ .input_icon-left,
+input:not([type]).input_invalid ~ .input_status-icon,
+input[type="text"].input_invalid ~ .input_status-icon {
+  color: #ed1c24;
+}
+
+input:not([type]).input_invalid ~ .input_status-icon::before,
+input[type="text"].input_invalid ~ .input_status-icon::before {
+  content: '\e913';
+}
+
+input:not([type]).input_valid ~ .input_status-icon,
+input[type="text"].input_valid ~ .input_status-icon {
+  color: #1bb934;
+}
+
+input:not([type]).input_valid ~ .input_status-icon::before,
+input[type="text"].input_valid ~ .input_status-icon::before {
+  content: '\e908';
+}
+
+.required-note {
+  color: #7f8fa4;
+  font-size: 0.75rem;
+  line-height: 1.3125rem;
+}
+
+.success-message {
+  color: #1bb934;
+  font-size: 0.75rem;
+  line-height: 1.3125rem;
+}
+
+.error-message {
+  color: #ed1c24;
+  font-size: 0.75rem;
+  line-height: 1.3125rem;
+}
+
+.success-message [class^='icon__'],
+.success-message [class*=' icon__'],
+.error-message [class^='icon__'],
+.error-message [class*=' icon__'] {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  height: 1rem;
+  width: 1rem;
+  line-height: 1rem;
+}
+
+.success-message [class^='icon__']::before,
+.success-message [class*=' icon__']::before,
+.error-message [class^='icon__']::before,
+.error-message [class*=' icon__']::before {
+  font-size: 0.75rem;
+  display: block;
+}
+
+.success-message [class^='icon__'],
+.success-message [class*=' icon__'] {
+  background-color: #1bb934;
+}
+
+.error-message [class^='icon__'],
+.error-message [class*=' icon__'] {
+  background-color: #ed1c24;
+}
+
+.input-label,
+.textarea-label {
+  color: #7f8fa4;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-bottom: 0.25rem;
+}

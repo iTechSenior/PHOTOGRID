@@ -1,0 +1,150 @@
+@import '/assets/css/fonts/montserrat.css';
+@import '/assets/css/fonts/icomoon.css';
+@import '/assets/css/inputs/text.css';
+@import '/assets/css/inputs/number.css';
+@import '/assets/css/inputs/checkbox.css';
+@import '/assets/css/inputs/radio.css';
+@import '/assets/css/inputs/toggle.css';
+@import '/assets/css/select2.css';
+@import '/assets/css/buttons.css';
+@import '/assets/css/selects.css';
+@import '/assets/css/dropdowns.css';
+@import '/assets/css/calendar.css';
+@import '/assets/css/badges.css';
+@import '/assets/css/social-buttons.css';
+@import '/assets/css/nav-tabs.css';
+@import '/assets/css/tooltips.css';
+@import '/assets/css/alerts.css';
+@import '/assets/css/pagination.css';
+@import '/assets/css/breadcrumbs.css';
+@import '/assets/css/progress-bar.css';
+@import '/assets/css/special-indicators.css';
+@import '/assets/css/menus.css';
+@import '/assets/css/cate-modal.css';
+@import '/assets/css/photo-grid.css';
+@import '/assets/css/global.css';
+
+* {
+  font-family: Montserrat;
+}
+
+body {
+  font-size: 13px!important;
+}
+
+.top-bar {
+  height: 110px;
+  width: 1430px;
+  background-color: #fff;
+  box-shadow: 0 -1px 0 0 #dfe2e5;
+}
+
+.title {
+  color: #354052;
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  margin: 0 0 0 3.125rem;
+}
+
+.content {
+  background: #f8fafb;
+  padding: 50px 80px 0;
+}
+
+.subtitle {
+  color: #354052;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-bottom: 3.3rem;
+}
+
+.subtitle:not(:first-child) {
+  margin-top: 5rem
+}
+
+.group-title {
+  color: #b6b6b6;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 1.75rem;
+}
+
+
+/* Typography */
+
+.typography-title {
+  color: #b6b6b6;
+  width: 125px;
+  font-size: 0.625rem;
+  letter-spacing: 1px;
+  line-height: 0.75rem;
+  text-transform: uppercase;
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.font-size_body,
+.font-size_caption,
+.font-size_tiny {
+  color: #354052;
+}
+
+.heading-1 {
+  font-size: 1.625rem;
+  line-height: 2.25rem;
+}
+
+.heading-2 {
+  font-size: 1.375rem;
+  line-height: 2rem;
+}
+
+.heading-3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-size_body {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+}
+
+.font-size_caption {
+  font-size: 0.75rem;
+  line-height: 1.3125rem;
+}
+
+.font-size_tiny {
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+}
+
+.heading-1 strong,
+.heading-2 strong,
+.heading-3 strong,
+.font-size_body strong,
+.font-size_caption strong,
+.font-size_tiny strong {
+  font-weight: 600;
+}
+
+
+/* System icons */
+
+.icons {
+  color: #516173;
+  margin-left: -1.5rem;
+  margin-top: -1.5rem;
+  margin-bottom: 18rem;
+}
+
+.icons [class^='icon__'] {
+  height: 1rem;
+  width: 1rem;
+}

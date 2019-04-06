@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssignedPhoto SnapShot match to snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AssignedPhoto
+    handleClickCloseBtn={[MockFunction]}
+    id={1}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          className="br__radius-5 w-80"
+          data-for="test"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        />,
+        false,
+        <ReactTooltip
+          effect="solid"
+          id="test"
+          insecure={true}
+          place="top"
+          resizeHide={true}
+          wrapper="div"
+        />,
+      ],
+      "className": "assigned-product-photo-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": undefined,
+          "className": "br__radius-5 w-80",
+          "data-for": "test",
+          "data-tip": undefined,
+          "onMouseEnter": [Function],
+          "onMouseLeave": [Function],
+          "src": undefined,
+          "style": Object {
+            "cursor": "pointer",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "effect": "solid",
+          "id": "test",
+          "insecure": true,
+          "place": "top",
+          "resizeHide": true,
+          "wrapper": "div",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            className="br__radius-5 w-80"
+            data-for="test"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "cursor": "pointer",
+              }
+            }
+          />,
+          false,
+          <ReactTooltip
+            effect="solid"
+            id="test"
+            insecure={true}
+            place="top"
+            resizeHide={true}
+            wrapper="div"
+          />,
+        ],
+        "className": "assigned-product-photo-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": undefined,
+            "className": "br__radius-5 w-80",
+            "data-for": "test",
+            "data-tip": undefined,
+            "onMouseEnter": [Function],
+            "onMouseLeave": [Function],
+            "src": undefined,
+            "style": Object {
+              "cursor": "pointer",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "effect": "solid",
+            "id": "test",
+            "insecure": true,
+            "place": "top",
+            "resizeHide": true,
+            "wrapper": "div",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

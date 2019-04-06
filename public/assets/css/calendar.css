@@ -1,0 +1,85 @@
+.custom-calendar__toggle-element {
+  background-color: #fff;
+  border: 1px solid #a9b0b8;
+  border-radius: 0.25rem;
+  line-height: 1;
+  padding: 0.625rem 1rem;
+}
+
+.custom-calendar__icon {
+  color: #a8aab7;
+}
+
+.custom-calendar__text {
+  color: #354052;
+  font-size: 0.875rem;
+  margin-left: 0.875rem;
+}
+
+.custom-calendar__arrow-dropdown {
+  color: #a8aab7;
+  margin-left: 0.875rem;
+}
+
+.custom-calendar__container::before,
+.custom-calendar__container::after {
+  display: none !important;
+}
+
+.custom-calendar__container table {
+  border-collapse: separate !important;
+  border-spacing: 0.25rem !important;
+}
+
+.custom-calendar__container thead th.prev span,
+.custom-calendar__container thead th.next span {
+  border: 0 !important;
+  color: #a8aab7 !important;
+  padding: 0 !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+}
+
+.custom-calendar__container thead th.prev span::after {
+  font-family: 'IcoMoon';
+  content: '\e901';
+}
+
+.custom-calendar__container thead th.next span::after {
+  font-family: 'IcoMoon';
+  content: '\e902';
+}
+
+.custom-calendar__container thead th.month {
+  color: #354052;
+  font-size: 0.875rem;
+}
+
+.custom-calendar__container thead tr:last-child th {
+  color: #7f8fa4 !important;
+  font-size: 0.625rem !important;
+}
+
+.custom-calendar__container th,
+.custom-calendar__container td {
+  border: 2px solid transparent !important;
+  font-size: 0.875rem !important;
+  height: 1.75rem !important;
+  min-width: 1.75rem !important;
+  width: 1.75rem !important;
+  padding: 0 !important;
+}
+
+.custom-calendar__container td.off {
+  color: #b0b0b1 !important;
+}
+
+.custom-calendar__container td:not(.off):not(.active).available {
+  color: #354052 !important;
+}
+
+.custom-calendar__container td.active {
+  background-color: #ea7835 !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}

@@ -1,0 +1,292 @@
+@font-face {
+  font-family: 'IcoMoon';
+  src:  url('../../fonts/IcoMoon.eot?gk1htb');
+  src:  url('../../fonts/IcoMoon.eot?gk1htb#iefix') format('embedded-opentype'),
+  url('../../fonts/IcoMoon.ttf?gk1htb') format('truetype'),
+  url('../../fonts/IcoMoon.woff?gk1htb') format('woff'),
+  url('../../fonts/IcoMoon.svg?gk1htb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon__'],
+[class*=' icon__'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'IcoMoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^='icon__']::before,
+[class*=' icon__']::before {
+  color: inherit;
+}
+
+.icon__discover::before {
+  content: '\e900';
+}
+
+.icon__help-center::before {
+  content: '\e901';
+}
+
+.icon__display-lists::before {
+  content: '\e902';
+}
+
+.icon__products::before {
+  content: '\e903';
+}
+
+.icon__analytics::before {
+  content: '\e904';
+}
+
+.icon__campaigns::before {
+  content: '\e905';
+}
+
+.icon__users::before {
+  content: '\e906';
+}
+
+.icon__accounts::before {
+  content: '\e907';
+}
+
+.icon__notification::before {
+  content: '\e908';
+}
+
+.icon__widget::before {
+  content: '\e909';
+}
+
+.icon__waiting::before {
+  content: '\e90a';
+}
+
+.icon__upload::before {
+  content: '\e90b';
+}
+
+.icon__user::before {
+  content: '\e90c';
+}
+
+.icon__star::before {
+  content: '\e90d';
+}
+
+.icon__settings::before {
+  content: '\e90e';
+}
+
+.icon__search::before {
+  content: '\e90f';
+}
+
+.icon__remove::before {
+  content: '\e910';
+}
+
+.icon__plus-small::before {
+  content: '\e911';
+}
+
+.icon__plus::before {
+  content: '\e912';
+}
+
+.icon__location::before {
+  content: '\e913';
+}
+
+.icon__pin::before {
+  content: '\e914';
+}
+
+.icon__social-vimeo::before {
+  content: '\e915';
+}
+
+.icon__social-twitter::before {
+  content: '\e916';
+}
+
+.icon__social-pinterest::before {
+  content: '\e917';
+}
+
+.icon__social-linkedin::before {
+  content: '\e918';
+}
+
+.icon__social-instagram::before {
+  content: '\e919';
+}
+
+.icon__social-gplus::before {
+  content: '\e91a';
+}
+
+.icon__social-facebook::before {
+  content: '\e91b';
+}
+
+.icon__outer-link::before {
+  content: '\e91c';
+}
+
+.icon__order-desc::before {
+  content: '\e91d';
+}
+
+.icon__order-asc::before {
+  content: '\e91e';
+}
+
+.icon__order::before {
+  content: '\e91f';
+}
+
+.icon__more::before {
+  content: '\e920';
+}
+
+.icon__message::before {
+  content: '\e921';
+}
+
+.icon__loader::before {
+  content: '\e922';
+}
+
+.icon__link::before {
+  content: '\e923';
+}
+
+.icon__likes::before {
+  content: '\e924';
+}
+
+.icon__info::before {
+  content: '\e925';
+}
+
+.icon__indeterminate-checkbox::before {
+  content: '\e926';
+}
+
+.icon__error::before {
+  content: '\e927';
+}
+
+.icon__edit::before {
+  content: '\e928';
+}
+
+.icon__download::before {
+  content: '\e929';
+}
+
+.icon__dot-radio::before {
+  content: '\e92a';
+}
+
+.icon__dialog::before {
+  content: '\e92b';
+}
+
+.icon__cross-circle::before {
+  content: '\e92c';
+}
+
+.icon__cross-close::before {
+  content: '\e92d';
+}
+
+.icon__cross-error::before {
+  content: '\e92e';
+}
+
+.icon__copyright::before {
+  content: '\e92f';
+}
+
+.icon__connection::before {
+  content: '\e930';
+  color: #516173;
+}
+
+.icon__comments::before {
+  content: '\e931';
+}
+
+.icon__collection::before {
+  content: '\e932';
+}
+
+.icon__dot-toggle::before {
+  content: '\e933';
+}
+
+.icon__chevron-small-right::before {
+  content: '\e934';
+}
+
+.icon__chevron-small-left::before {
+  content: '\e935';
+}
+
+.icon__chevron-right::before {
+  content: '\e936';
+}
+
+.icon__chevron-left::before {
+  content: '\e937';
+}
+
+.icon__check-circle::before {
+  content: '\e938';
+}
+
+.icon__check-small-checkbox::before {
+  content: '\e939';
+}
+
+.icon__check-big::before {
+  content: '\e93a';
+}
+
+.icon__check::before {
+  content: '\e93b';
+}
+
+.icon__chart::before {
+  content: '\e93c';
+}
+
+.icon__calendar::before {
+  content: '\e93d';
+}
+
+.icon__arrow-right::before {
+  content: '\e93e';
+}
+
+.icon__arrow-left::before {
+  content: '\e93f';
+}
+
+.icon__arrow-dropdown::before {
+  content: '\e940';
+}

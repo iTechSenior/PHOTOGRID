@@ -1,0 +1,45 @@
+.breadcrumbs__counter {
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.875rem;
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.breadcrumbs__counter_done {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #516173;
+}
+
+.breadcrumbs__counter_active {
+  background-color: #ea7835;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
+
+.breadcrumbs__counter_inactive {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #b0b0b1;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
+
+.breadcrumbs__text {
+  font-size: 0.875rem;
+}
+
+.breadcrumbs__text_default {
+  color: #b0b0b1;
+}
+
+.breadcrumbs__text_active {
+  color: #354052;
+  font-weight: 600;
+}
+
+.breadcrumbs__text_selected {
+  color: #f67646;
+}

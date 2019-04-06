@@ -1,0 +1,143 @@
+.custom-button {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  /*font-weight: 600;*/
+  box-shadow: none !important;
+  outline: none !important;
+  padding: 0.4375rem 1rem;
+}
+
+.custom-button:disabled,
+.custom-button:disabled:hover,
+.custom-button:disabled:active {
+  background-color: #e9edf1;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #b0b0b1;
+  opacity: 1;
+}
+
+.custom-button_small {
+  padding: 0.25rem 0.71rem;
+}
+
+.custom-button_large {
+  padding: 0.725rem 1.42rem;
+  font-size: 1.125rem;
+}
+
+.custom-button_primary {
+  background-color: #ea7835;
+  border-color: #d26b2f;
+  color: #fff;
+}
+
+.custom-button_primary:hover,
+.custom-button_primary_hover {
+  background-color: #eb7f40;
+  border-color: #d37239;
+}
+
+.custom-button_primary:active,
+.custom-button_primary_active {
+  background-color: #d86f31;
+  border-color: #c1632c;
+}
+
+.custom-button_simple {
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #354052;
+}
+
+.custom-button_simple:hover,
+.custom-button_simple_hover {
+  border-color: #a9b0b8;
+}
+
+.custom-button_simple:active,
+.custom-button_simple_active {
+  background-color: #ececec;
+}
+
+.custom-button_outline-primary {
+  background-color: #fff;
+  border-color: #ea7835;
+  color: #f67646;
+}
+
+.custom-button_outline-primary:hover,
+.custom-button_outline-primary_hover {
+}
+
+.custom-button_outline-primary:active,
+.custom-button_outline-primary_active {
+  background-color: #f7f3f1;
+}
+
+.custom-button_outline-danger {
+  background-color: #fff;
+  border-color: #ed1c24;
+  color: #ed1c24;
+}
+
+.custom-button_outline-danger:hover,
+.custom-button_outline-danger_hover {
+
+}
+
+.custom-button_outline-danger:active,
+.custom-button_outline-danger_active {
+  background-color: #ebe3e4;
+}
+
+.custom-button_outline-success {
+  background-color: #fff;
+  border-color: #1bb934;
+  color: #39b54a;
+}
+
+.custom-button_outline-success:hover,
+.custom-button_outline-success_hover {
+
+}
+
+.custom-button_outline-success:active,
+.custom-button_outline-success_active {
+  background-color: #e2e9e6;
+}
+
+.custom-button_danger {
+  background-color: #f85359;
+  border-color: #de4a4f;
+  color: #fff;
+}
+
+.custom-button_danger:hover,
+.custom-button_danger_hover {
+  background-color: #f85d62;
+  border-color: #de5358;
+}
+
+.custom-button_danger:active,
+.custom-button_danger_active {
+  background-color: #e54d53;
+  border-color: #e54d53
+}
+
+.custom-button_success {
+  background-color: #39b54a;
+  border-color: #33a242;
+  color: #fff;
+}
+
+.custom-button_success:hover,
+.custom-button_success_hover {
+  background-color: #44b954;
+  border-color: #3da64b;
+}
+
+.custom-button_success:active,
+.custom-button_success_active {
+  background-color: #35a745;
+  border-color: #3da64b;
+}

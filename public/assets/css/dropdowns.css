@@ -1,0 +1,116 @@
+.custom-dropdown__menu {
+  border: 1px solid #cfd5dd;
+  border-radius: 0;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08);
+}
+
+.custom-dropdown__item {
+  -webkit-appearance: none !important;
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+  position: relative;
+  outline: none !important;
+}
+
+.custom-dropdown__item:not(:last-child) {
+  box-shadow: inset 0 -1px 0 0 #dfe3e9;
+}
+
+.custom-dropdown__item_default {
+  background-color: #fff;
+  color: #354052;
+}
+
+.custom-dropdown__item_default:hover,
+.custom-dropdown__item_default:focus,
+.custom-dropdown__item_hover,
+.custom-dropdown__item_selected {
+  background-color: #f1f4f8 !important;
+  color: #f67646 !important;
+}
+
+.custom-dropdown__image {
+  border-radius: 50%;
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.custom-dropdown__big-image {
+  background-color: #fff;
+  border: 1px solid #e2e7ee;
+  border-radius: 0.25rem;
+  object-fit: contain;
+  height: 3.875rem;
+  width: 3.875rem;
+}
+
+.custom-dropdown__header {
+  background-color: #fff;
+  border-left: 1px solid #cfd5dd;
+  box-shadow: inset 0 -1px 0 0 #e2e7ee;
+  color: #354052;
+  font-size: 0.875rem;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+}
+
+.custom-dropdown__header_wide {
+  width: 16rem;
+}
+
+.custom-dropdown__input_container {
+  background-color: #f1f4f8;
+  box-shadow: inset 0 -1px 0 0 #dfe3e9;
+}
+
+.custom-dropdown__input_container_wide {
+  width: 16rem;
+}
+
+.custom-dropdown__input_container .input_icon {
+  color: #a8aab7;
+}
+
+.custom-dropdown__scroll-container {
+  overflow: auto;
+  max-height: 9.25rem;
+}
+
+.custom-dropdown__scroll-container::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.custom-dropdown__scroll-container::-webkit-scrollbar-track {
+  background-color: #e2e5eb;
+  opacity: 0.5;
+}
+
+.custom-dropdown__scroll-container::-webkit-scrollbar-thumb {
+  background-color: #b1b4c1;
+  opacity: 0.5;
+  height: 1.875rem;
+  width: 0.25rem;
+}
+
+.custom-dropdown__footer {
+  background-color: #f8fafb;
+  box-shadow: inset 0 1px 0 0 #e2e7ee, 0 1px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 0.75rem 0.875rem;
+}
+
+.custom-dropdown__footer-button {
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0;
+}
+
+.custom-dropdown__footer-button_default {
+  color: #7f8fa4;
+}
+
+.custom-dropdown__footer-button_action {
+  color: #f67646;
+}

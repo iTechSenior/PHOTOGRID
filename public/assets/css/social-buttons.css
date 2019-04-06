@@ -1,0 +1,15 @@
+.social-button {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  color: #a8aab7;
+  height: 2.25rem;
+  width: 2.25rem;
+  line-height: 2.25rem;
+  -webkit-appearance: none;
+}
+
+.social-button_inverted {
+  background-color: #333f52;
+  color: #fff;
+}

@@ -1,0 +1,232 @@
+.photo-grid-container {
+  max-width: 270px;
+  width: 100%;
+  height: 350px;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px 0 rgba(63,63,68,.15);
+  border-radius: 3px;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 8px 10px
+}
+
+.photo-grid-thumbnail-container {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+}
+
+.photo-grid-social-container {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-grid-productman-container {
+  width: calc(100% + 5px);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: -5px;
+}
+
+.photo-social-author-info {
+  display: flex;
+  align-items: center;
+}
+
+.photo-social-detail-text {
+  position: relative;
+  top: -3px;
+}
+
+.photo-social-author-name{
+  cursor: pointer;
+  position: relative;
+  top: -3px
+}
+
+.image-over-container {
+  position: relative;
+}
+
+.image-over-top {
+  background: rgba(47, 50, 60, 0.9);
+  border-radius: 5px;
+  position: relative;
+  z-index: 4;
+  height: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.over-image__checkbox {
+  height: 0.9rem;
+  width: 0.9rem;
+}
+
+.over-image__checkbox:checked::before {
+  font-size: 0.7rem;
+  font-weight: 400;
+  content: '\e93b';
+}
+
+.select__icon-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon__check-white {
+  color: white;
+}
+
+.show-detail {
+  text-align: center;
+  color: white;
+}
+
+.action-block__button {
+  padding: 2px 12px 0!important;
+  width: 45px;
+  height: 26px;
+}
+
+.custom-button__simple-active span {
+  color: #fff!important;
+}
+
+.custom-button-tooltip {
+  padding: 5px 12px;
+}
+
+.detail-view-container {
+  background: rgb(47, 50, 60);
+  position: relative;
+  z-index: 5;
+  border-radius: 0 0 5px 5px;
+}
+
+.detail-block {
+  height: 70px;
+  padding: 0 20px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 19px;
+  font-size: 10.5px;
+}
+
+.divider {
+  height: 0px;
+  background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.assigned-product-photo-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.assigned-product-cancel-container {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f85359;
+  cursor: pointer;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.assigned-products-add-btn {
+  height: 30px;
+  width: 55px;
+  border: 1px solid;
+  border-color:  rgba(63,63,68,.15);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.assigned-products-add-btn-over {
+  border-color:  #f67646!important;
+}
+
+.assigned-product-add-modal{
+  top: 0px!important;
+}
+
+.custom-dropdown__scroll-container::-webkit-scrollbar {
+  height: 0.25rem;
+}
+
+.assigned-products-scroll-container {
+  overflow: auto;
+  max-height: 14.25rem;
+  width: 16rem;
+}
+
+.custom-dropdown__item {
+  border-right: 1px solid #dfe3e9!important;
+}
+
+.status-button-group {
+  position: absolute;
+  right: 10px;
+  top: -16px;
+  z-index: 10;
+}
+
+.status-badge:empty {
+  display: block!important;
+}
+
+.status-badge {
+  font-size: 19px!important;
+  padding: 3px!important;
+  font-weight: 400!important;
+  margin-left: 6px;
+}
+
+.status-badge__small {
+  font-size: 16px!important;
+  padding: 3px!important;
+  background: white;
+  border: 1px solid lightgrey;
+}
+
+.triangle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 40px;
+  height: 40px;
+  border-top: solid 20px #f6ac04;
+  border-left: solid 20px #f6ac04;
+  border-right: solid 20px transparent;
+  border-bottom: solid 20px transparent;
+  border-radius: 5px 0 0;
+  background: transparent;
+}
+
+.triangle__star {
+  position: relative;
+  top: -16px;
+  right: 16px;
+  color: white;
+}
+
+.selected-photo {
+  box-shadow: 0 0 0 2px #f67646;
+}

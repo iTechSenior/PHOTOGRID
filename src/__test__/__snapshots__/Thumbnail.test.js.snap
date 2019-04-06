@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thumbnail SnapShot match to snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Thumbnail
+    onRightsRequest={[MockFunction]}
+    onSelectionChange={[MockFunction]}
+    onStatusChange={[MockFunction]}
+    onStickyChange={[MockFunction]}
+    photo={
+      Object {
+        "collections": Array [
+          "cats",
+          "cute",
+        ],
+        "comments": 82,
+        "description": "Autumn colours #instagood #followme #instago #fun #my #nice #love #me #cute #follow #photooftheday #like #tbt #beautiful #picoftheday #happy #summer #instadaily #igers #fun #bestoftheday #instamood #instalike #like4like #friends truncated text after three lines of…",
+        "errors": Array [
+          "First error",
+          "Second error",
+        ],
+        "id": 1,
+        "imageUrl": "https://scontent-ber1-1.cdninstagram.com/vp/88f4d9772eff7bc7e429e3629f507339/5C8BE025/t51.2885-15/e35/44887346_2211003352244412_5881337131845119437_n.jpg",
+        "likes": 9212,
+        "mentioned": true,
+        "products": Array [
+          1,
+        ],
+        "rightsGranted": false,
+        "source": Object {
+          "provider": "instagram",
+          "url": "https://www.instagram.com/p/Bq20cFDnpCB/",
+          "username": "cats",
+        },
+        "status": "pending",
+        "sticky": false,
+      }
+    }
+    selectedPhotos={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <StatusButtonGroup
+          photo={
+            Object {
+              "collections": Array [
+                "cats",
+                "cute",
+              ],
+              "comments": 82,
+              "description": "Autumn colours #instagood #followme #instago #fun #my #nice #love #me #cute #follow #photooftheday #like #tbt #beautiful #picoftheday #happy #summer #instadaily #igers #fun #bestoftheday #instamood #instalike #like4like #friends truncated text after three lines of…",
+              "errors": Array [
+                "First error",
+                "Second error",
+              ],
+              "id": 1,
+              "imageUrl": "https://scontent-ber1-1.cdninstagram.com/vp/88f4d9772eff7bc7e429e3629f507339/5C8BE025/t51.2885-15/e35/44887346_2211003352244412_5881337131845119437_n.jpg",
+              "likes": 9212,
+              "mentioned": true,
+              "products": Array [
+                1,
+              ],
+              "rightsGranted": false,
+              "source": Object {
+                "provider": "instagram",
+                "url": "https://www.instagram.com/p/Bq20cFDnpCB/",
+                "username": "cats",
+              },
+              "status": "pending",
+              "sticky": false,
+            }
+          }
+        />,
+        <div
+          className="triangle"
+        >
+          <span
+            className="icon__star triangle__star font-14"
+          />
+        </div>,
+        false,
+      ],
+      "className": "photo-grid-thumbnail-container br__radius-5",
+      "onMouseEnter": [Function],
+      "onMouseLeave": [Function],
+      "style": Object {
+        "backgroundImage": "url(https://scontent-ber1-1.cdninstagram.com/vp/88f4d9772eff7bc7e429e3629f507339/5C8BE025/t51.2885-15/e35/44887346_2211003352244412_5881337131845119437_n.jpg)",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "photo": Object {
+            "collections": Array [
+              "cats",
+              "cute",
+            ],
+            "comments": 82,
+            "description": "Autumn colours #instagood #followme #instago #fun #my #nice #love #me #cute #follow #photooftheday #like #tbt #beautiful #picoftheday #happy #summer #instadaily #igers #fun #bestoftheday #instamood #instalike #like4like #friends truncated text after three lines of…",
+            "errors": Array [
+              "First error",
+              "Second error",
+            ],
+            "id": 1,
+            "imageUrl": "https://scontent-ber1-1.cdninstagram.com/vp/88f4d9772eff7bc7e429e3629f507339/5C8BE025/t51.2885-15/e35/44887346_2211003352244412_5881337131845119437_n.jpg",
+            "likes": 9212,
+            "mentioned": true,
+            "products": Array [
+              1,
+            ],
+            "rightsGranted": false,
+            "source": Object {
+              "provider": "instagram",
+              "url": "https://www.instagram.com/p/Bq20cFDnpCB/",
+              "username": "cats",
+            },
+            "status": "pending",
+            "sticky": false,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <span
+            className="icon__star triangle__star font-14"
+          />,
+          "className": "triangle",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "icon__star triangle__star font-14",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": "div",
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <StatusButtonGroup
+            photo={
+              Object {
+                "collections": Array [
+                  "cats",
+                  "cute",
+                ],
+                "comments": 82,
+                "description": "Autumn colours #instagood #followme #instago #fun #my #nice #love #me #cute #follow #photooftheday #like #tbt #beautiful #picoftheday #happy #summer #instadaily #igers #fun #bestoftheday #instamood #instalike #like4like #friends truncated text after three lines of…",
+                "errors": Array [
+                  "First error",
+                  "Second error",
+                ],
+                "id": 1,
+                "imageUrl": "https://scontent-ber1-1.cdninstagram.com/vp/88f4d9772eff7bc7e429e3629f507339/5C8BE025/t51.2885-15/e35/44887346_2211003352244412_5881337131845119437_n.jpg",
+                "likes": 9212,
+                "mentioned": true,
+                "products": Array [
+                  1,
+                ],
+                "rightsGranted": false,
+                "source": Object {
+                  "provider": "instagram",
+                  "url": "https://www.instagram.com/p/Bq20cFDnpCB/",
+                  "username": "cats",
+                },
+                "status": "pending",
+                "sticky": false,
+              }
+            }
+          />,
+          <div
+            className="triangle"
+          >
+            <span
+              className="icon__star triangle__star font-14"
+            />
+          </div>,
+          false,
+        ],
+        "className": "photo-grid-thumbnail-container br__radius-5",
+        "onMouseEnter": [Function],
+        "onMouseLeave": [Function],
+        "style": Object {
+          "backgroundImage": "url(https://scontent-ber1-1.cdninstagram.com/vp/88f4d9772eff7bc7e429e3629f507339/5C8BE025/t51.2885-15/e35/44887346_2211003352244412_5881337131845119437_n.jpg)",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "photo": Object {
+              "collections": Array [
+                "cats",
+                "cute",
+              ],
+              "comments": 82,
+              "description": "Autumn colours #instagood #followme #instago #fun #my #nice #love #me #cute #follow #photooftheday #like #tbt #beautiful #picoftheday #happy #summer #instadaily #igers #fun #bestoftheday #instamood #instalike #like4like #friends truncated text after three lines of…",
+              "errors": Array [
+                "First error",
+                "Second error",
+              ],
+              "id": 1,
+              "imageUrl": "https://scontent-ber1-1.cdninstagram.com/vp/88f4d9772eff7bc7e429e3629f507339/5C8BE025/t51.2885-15/e35/44887346_2211003352244412_5881337131845119437_n.jpg",
+              "likes": 9212,
+              "mentioned": true,
+              "products": Array [
+                1,
+              ],
+              "rightsGranted": false,
+              "source": Object {
+                "provider": "instagram",
+                "url": "https://www.instagram.com/p/Bq20cFDnpCB/",
+                "username": "cats",
+              },
+              "status": "pending",
+              "sticky": false,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="icon__star triangle__star font-14"
+            />,
+            "className": "triangle",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "icon__star triangle__star font-14",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "div",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

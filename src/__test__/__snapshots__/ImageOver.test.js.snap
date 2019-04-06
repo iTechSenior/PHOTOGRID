@@ -1,0 +1,1258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageOver SnapShot match to snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ImageOver
+    onRightsRequest={[MockFunction]}
+    onSelectionChange={[MockFunction]}
+    onStatusChange={[MockFunction]}
+    onStickyChange={[MockFunction]}
+    photo={
+      Object {
+        "collections": Array [
+          "cats",
+          "cute",
+        ],
+        "comments": 82,
+        "description": "Autumn colours #instagood #followme #instago #fun #my #nice #love #me #cute #follow #photooftheday #like #tbt #beautiful #picoftheday #happy #summer #instadaily #igers #fun #bestoftheday #instamood #instalike #like4like #friends truncated text after three lines of…",
+        "errors": Array [
+          "First error",
+          "Second error",
+        ],
+        "id": 1,
+        "imageUrl": "https://scontent-ber1-1.cdninstagram.com/vp/88f4d9772eff7bc7e429e3629f507339/5C8BE025/t51.2885-15/e35/44887346_2211003352244412_5881337131845119437_n.jpg",
+        "likes": 9212,
+        "mentioned": true,
+        "products": Array [
+          1,
+        ],
+        "rightsGranted": false,
+        "source": Object {
+          "provider": "instagram",
+          "url": "https://www.instagram.com/p/Bq20cFDnpCB/",
+          "username": "cats",
+        },
+        "status": "pending",
+        "sticky": false,
+      }
+    }
+    selectedPhotos={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="image-over-top"
+          style={
+            Object {
+              "borderRadius": "",
+            }
+          }
+        >
+          <div
+            className="select__icon-block"
+          >
+            <input
+              checked={false}
+              className="checkbox__input over-image__checkbox icon__ch"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <div
+              className="color__white font-11"
+            >
+              20-08-2017, 4:08 pm
+            </div>
+          </div>
+          <div
+            className="show-detail w-100 font-13"
+          >
+            <div
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <span
+                className="icon__dialog font-14"
+              />
+              <br />
+              Show details
+            </div>
+          </div>
+          <div
+            className="d-flex justify-content-between action-block"
+          >
+            <button
+              className=" btn custom-button custom-button__simple action-block__button"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              <span
+                className="icon__check font-15 color__grey"
+                data-for="button-group"
+                data-tip="Approve"
+              />
+            </button>
+            <button
+              className=" btn custom-button custom-button__simple action-block__button"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              <span
+                className="icon__cross-close font-14 color__grey"
+                data-for="button-group"
+                data-tip="Reject"
+              />
+            </button>
+            <button
+              className=" btn custom-button custom-button__simple action-block__button"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              <span
+                className="icon__copyright font-14 color__grey"
+                data-for="button-group"
+                data-tip="Copyright"
+              />
+            </button>
+            <button
+              className=" btn custom-button custom-button__simple action-block__button"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              <span
+                className="icon__more font-14 color__grey"
+                data-for="button-group"
+                data-tip="Sticky"
+              />
+            </button>
+            <ReactTooltip
+              className="custom-button-tooltip font-11"
+              effect="solid"
+              id="button-group"
+              insecure={true}
+              offset={
+                Object {
+                  "top": 5,
+                }
+              }
+              resizeHide={true}
+              wrapper="div"
+            />
+          </div>
+        </div>,
+        false,
+      ],
+      "className": "image-over-container w-100 h-125 br__radius-5",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="select__icon-block"
+            >
+              <input
+                checked={false}
+                className="checkbox__input over-image__checkbox icon__ch"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <div
+                className="color__white font-11"
+              >
+                20-08-2017, 4:08 pm
+              </div>
+            </div>,
+            <div
+              className="show-detail w-100 font-13"
+            >
+              <div
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                <span
+                  className="icon__dialog font-14"
+                />
+                <br />
+                Show details
+              </div>
+            </div>,
+            <div
+              className="d-flex justify-content-between action-block"
+            >
+              <button
+                className=" btn custom-button custom-button__simple action-block__button"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                <span
+                  className="icon__check font-15 color__grey"
+                  data-for="button-group"
+                  data-tip="Approve"
+                />
+              </button>
+              <button
+                className=" btn custom-button custom-button__simple action-block__button"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                <span
+                  className="icon__cross-close font-14 color__grey"
+                  data-for="button-group"
+                  data-tip="Reject"
+                />
+              </button>
+              <button
+                className=" btn custom-button custom-button__simple action-block__button"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                <span
+                  className="icon__copyright font-14 color__grey"
+                  data-for="button-group"
+                  data-tip="Copyright"
+                />
+              </button>
+              <button
+                className=" btn custom-button custom-button__simple action-block__button"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                <span
+                  className="icon__more font-14 color__grey"
+                  data-for="button-group"
+                  data-tip="Sticky"
+                />
+              </button>
+              <ReactTooltip
+                className="custom-button-tooltip font-11"
+                effect="solid"
+                id="button-group"
+                insecure={true}
+                offset={
+                  Object {
+                    "top": 5,
+                  }
+                }
+                resizeHide={true}
+                wrapper="div"
+              />
+            </div>,
+          ],
+          "className": "image-over-top",
+          "style": Object {
+            "borderRadius": "",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={false}
+                  className="checkbox__input over-image__checkbox icon__ch"
+                  onChange={[Function]}
+                  type="checkbox"
+                />,
+                <div
+                  className="color__white font-11"
+                >
+                  20-08-2017, 4:08 pm
+                </div>,
+              ],
+              "className": "select__icon-block",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "className": "checkbox__input over-image__checkbox icon__ch",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "20-08-2017, 4:08 pm",
+                  "className": "color__white font-11",
+                },
+                "ref": null,
+                "rendered": "20-08-2017, 4:08 pm",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                <span
+                  className="icon__dialog font-14"
+                />
+                <br />
+                Show details
+              </div>,
+              "className": "show-detail w-100 font-13",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="icon__dialog font-14"
+                  />,
+                  <br />,
+                  "Show details",
+                ],
+                "onMouseEnter": [Function],
+                "onMouseLeave": [Function],
+                "style": Object {
+                  "cursor": "pointer",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "icon__dialog font-14",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                "Show details",
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className=" btn custom-button custom-button__simple action-block__button"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon__check font-15 color__grey"
+                    data-for="button-group"
+                    data-tip="Approve"
+                  />
+                </button>,
+                <button
+                  className=" btn custom-button custom-button__simple action-block__button"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon__cross-close font-14 color__grey"
+                    data-for="button-group"
+                    data-tip="Reject"
+                  />
+                </button>,
+                <button
+                  className=" btn custom-button custom-button__simple action-block__button"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon__copyright font-14 color__grey"
+                    data-for="button-group"
+                    data-tip="Copyright"
+                  />
+                </button>,
+                <button
+                  className=" btn custom-button custom-button__simple action-block__button"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon__more font-14 color__grey"
+                    data-for="button-group"
+                    data-tip="Sticky"
+                  />
+                </button>,
+                <ReactTooltip
+                  className="custom-button-tooltip font-11"
+                  effect="solid"
+                  id="button-group"
+                  insecure={true}
+                  offset={
+                    Object {
+                      "top": 5,
+                    }
+                  }
+                  resizeHide={true}
+                  wrapper="div"
+                />,
+              ],
+              "className": "d-flex justify-content-between action-block",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="icon__check font-15 color__grey"
+                    data-for="button-group"
+                    data-tip="Approve"
+                  />,
+                  "className": " btn custom-button custom-button__simple action-block__button",
+                  "onClick": [Function],
+                  "onMouseEnter": [Function],
+                  "onMouseLeave": [Function],
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "icon__check font-15 color__grey",
+                    "data-for": "button-group",
+                    "data-tip": "Approve",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="icon__cross-close font-14 color__grey"
+                    data-for="button-group"
+                    data-tip="Reject"
+                  />,
+                  "className": " btn custom-button custom-button__simple action-block__button",
+                  "onClick": [Function],
+                  "onMouseEnter": [Function],
+                  "onMouseLeave": [Function],
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "icon__cross-close font-14 color__grey",
+                    "data-for": "button-group",
+                    "data-tip": "Reject",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="icon__copyright font-14 color__grey"
+                    data-for="button-group"
+                    data-tip="Copyright"
+                  />,
+                  "className": " btn custom-button custom-button__simple action-block__button",
+                  "onClick": [Function],
+                  "onMouseEnter": [Function],
+                  "onMouseLeave": [Function],
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "icon__copyright font-14 color__grey",
+                    "data-for": "button-group",
+                    "data-tip": "Copyright",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="icon__more font-14 color__grey"
+                    data-for="button-group"
+                    data-tip="Sticky"
+                  />,
+                  "className": " btn custom-button custom-button__simple action-block__button",
+                  "onClick": [Function],
+                  "onMouseEnter": [Function],
+                  "onMouseLeave": [Function],
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "icon__more font-14 color__grey",
+                    "data-for": "button-group",
+                    "data-tip": "Sticky",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "custom-button-tooltip font-11",
+                  "effect": "solid",
+                  "id": "button-group",
+                  "insecure": true,
+                  "offset": Object {
+                    "top": 5,
+                  },
+                  "resizeHide": true,
+                  "wrapper": "div",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="image-over-top"
+            style={
+              Object {
+                "borderRadius": "",
+              }
+            }
+          >
+            <div
+              className="select__icon-block"
+            >
+              <input
+                checked={false}
+                className="checkbox__input over-image__checkbox icon__ch"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <div
+                className="color__white font-11"
+              >
+                20-08-2017, 4:08 pm
+              </div>
+            </div>
+            <div
+              className="show-detail w-100 font-13"
+            >
+              <div
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                <span
+                  className="icon__dialog font-14"
+                />
+                <br />
+                Show details
+              </div>
+            </div>
+            <div
+              className="d-flex justify-content-between action-block"
+            >
+              <button
+                className=" btn custom-button custom-button__simple action-block__button"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                <span
+                  className="icon__check font-15 color__grey"
+                  data-for="button-group"
+                  data-tip="Approve"
+                />
+              </button>
+              <button
+                className=" btn custom-button custom-button__simple action-block__button"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                <span
+                  className="icon__cross-close font-14 color__grey"
+                  data-for="button-group"
+                  data-tip="Reject"
+                />
+              </button>
+              <button
+                className=" btn custom-button custom-button__simple action-block__button"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                <span
+                  className="icon__copyright font-14 color__grey"
+                  data-for="button-group"
+                  data-tip="Copyright"
+                />
+              </button>
+              <button
+                className=" btn custom-button custom-button__simple action-block__button"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                <span
+                  className="icon__more font-14 color__grey"
+                  data-for="button-group"
+                  data-tip="Sticky"
+                />
+              </button>
+              <ReactTooltip
+                className="custom-button-tooltip font-11"
+                effect="solid"
+                id="button-group"
+                insecure={true}
+                offset={
+                  Object {
+                    "top": 5,
+                  }
+                }
+                resizeHide={true}
+                wrapper="div"
+              />
+            </div>
+          </div>,
+          false,
+        ],
+        "className": "image-over-container w-100 h-125 br__radius-5",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="select__icon-block"
+              >
+                <input
+                  checked={false}
+                  className="checkbox__input over-image__checkbox icon__ch"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <div
+                  className="color__white font-11"
+                >
+                  20-08-2017, 4:08 pm
+                </div>
+              </div>,
+              <div
+                className="show-detail w-100 font-13"
+              >
+                <div
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                >
+                  <span
+                    className="icon__dialog font-14"
+                  />
+                  <br />
+                  Show details
+                </div>
+              </div>,
+              <div
+                className="d-flex justify-content-between action-block"
+              >
+                <button
+                  className=" btn custom-button custom-button__simple action-block__button"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon__check font-15 color__grey"
+                    data-for="button-group"
+                    data-tip="Approve"
+                  />
+                </button>
+                <button
+                  className=" btn custom-button custom-button__simple action-block__button"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon__cross-close font-14 color__grey"
+                    data-for="button-group"
+                    data-tip="Reject"
+                  />
+                </button>
+                <button
+                  className=" btn custom-button custom-button__simple action-block__button"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon__copyright font-14 color__grey"
+                    data-for="button-group"
+                    data-tip="Copyright"
+                  />
+                </button>
+                <button
+                  className=" btn custom-button custom-button__simple action-block__button"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon__more font-14 color__grey"
+                    data-for="button-group"
+                    data-tip="Sticky"
+                  />
+                </button>
+                <ReactTooltip
+                  className="custom-button-tooltip font-11"
+                  effect="solid"
+                  id="button-group"
+                  insecure={true}
+                  offset={
+                    Object {
+                      "top": 5,
+                    }
+                  }
+                  resizeHide={true}
+                  wrapper="div"
+                />
+              </div>,
+            ],
+            "className": "image-over-top",
+            "style": Object {
+              "borderRadius": "",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="checkbox__input over-image__checkbox icon__ch"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />,
+                  <div
+                    className="color__white font-11"
+                  >
+                    20-08-2017, 4:08 pm
+                  </div>,
+                ],
+                "className": "select__icon-block",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": false,
+                    "className": "checkbox__input over-image__checkbox icon__ch",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "20-08-2017, 4:08 pm",
+                    "className": "color__white font-11",
+                  },
+                  "ref": null,
+                  "rendered": "20-08-2017, 4:08 pm",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                >
+                  <span
+                    className="icon__dialog font-14"
+                  />
+                  <br />
+                  Show details
+                </div>,
+                "className": "show-detail w-100 font-13",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="icon__dialog font-14"
+                    />,
+                    <br />,
+                    "Show details",
+                  ],
+                  "onMouseEnter": [Function],
+                  "onMouseLeave": [Function],
+                  "style": Object {
+                    "cursor": "pointer",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon__dialog font-14",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  "Show details",
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <button
+                    className=" btn custom-button custom-button__simple action-block__button"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    type="button"
+                  >
+                    <span
+                      className="icon__check font-15 color__grey"
+                      data-for="button-group"
+                      data-tip="Approve"
+                    />
+                  </button>,
+                  <button
+                    className=" btn custom-button custom-button__simple action-block__button"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    type="button"
+                  >
+                    <span
+                      className="icon__cross-close font-14 color__grey"
+                      data-for="button-group"
+                      data-tip="Reject"
+                    />
+                  </button>,
+                  <button
+                    className=" btn custom-button custom-button__simple action-block__button"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    type="button"
+                  >
+                    <span
+                      className="icon__copyright font-14 color__grey"
+                      data-for="button-group"
+                      data-tip="Copyright"
+                    />
+                  </button>,
+                  <button
+                    className=" btn custom-button custom-button__simple action-block__button"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    type="button"
+                  >
+                    <span
+                      className="icon__more font-14 color__grey"
+                      data-for="button-group"
+                      data-tip="Sticky"
+                    />
+                  </button>,
+                  <ReactTooltip
+                    className="custom-button-tooltip font-11"
+                    effect="solid"
+                    id="button-group"
+                    insecure={true}
+                    offset={
+                      Object {
+                        "top": 5,
+                      }
+                    }
+                    resizeHide={true}
+                    wrapper="div"
+                  />,
+                ],
+                "className": "d-flex justify-content-between action-block",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span
+                      className="icon__check font-15 color__grey"
+                      data-for="button-group"
+                      data-tip="Approve"
+                    />,
+                    "className": " btn custom-button custom-button__simple action-block__button",
+                    "onClick": [Function],
+                    "onMouseEnter": [Function],
+                    "onMouseLeave": [Function],
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon__check font-15 color__grey",
+                      "data-for": "button-group",
+                      "data-tip": "Approve",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span
+                      className="icon__cross-close font-14 color__grey"
+                      data-for="button-group"
+                      data-tip="Reject"
+                    />,
+                    "className": " btn custom-button custom-button__simple action-block__button",
+                    "onClick": [Function],
+                    "onMouseEnter": [Function],
+                    "onMouseLeave": [Function],
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon__cross-close font-14 color__grey",
+                      "data-for": "button-group",
+                      "data-tip": "Reject",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span
+                      className="icon__copyright font-14 color__grey"
+                      data-for="button-group"
+                      data-tip="Copyright"
+                    />,
+                    "className": " btn custom-button custom-button__simple action-block__button",
+                    "onClick": [Function],
+                    "onMouseEnter": [Function],
+                    "onMouseLeave": [Function],
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon__copyright font-14 color__grey",
+                      "data-for": "button-group",
+                      "data-tip": "Copyright",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span
+                      className="icon__more font-14 color__grey"
+                      data-for="button-group"
+                      data-tip="Sticky"
+                    />,
+                    "className": " btn custom-button custom-button__simple action-block__button",
+                    "onClick": [Function],
+                    "onMouseEnter": [Function],
+                    "onMouseLeave": [Function],
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "icon__more font-14 color__grey",
+                      "data-for": "button-group",
+                      "data-tip": "Sticky",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "custom-button-tooltip font-11",
+                    "effect": "solid",
+                    "id": "button-group",
+                    "insecure": true,
+                    "offset": Object {
+                      "top": 5,
+                    },
+                    "resizeHide": true,
+                    "wrapper": "div",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

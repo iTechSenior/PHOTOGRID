@@ -1,0 +1,89 @@
+.appmenu__container {
+  background-color: #222c3c;
+  box-shadow: inset -2px 0 1px 1px rgba(0, 0, 0,0.2);
+  height: 21rem;
+  width: 4.5rem;
+}
+
+.appmenu__logo {
+  height: 1.625rem;
+  width: 1.625rem;
+  margin-top: 1.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.appmenu__divider {
+  background-color: #333f52;
+  height: 1px;
+  width: 2.25rem;
+}
+
+.appmenu__list {
+  list-style: none;
+}
+
+.appmenu__item {
+  border-left: 3px solid transparent;
+  color: #b7c0cd;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  text-align: center;
+}
+
+.appmenu__item_default {
+  cursor: pointer;
+}
+
+.appmenu__item_default:hover {
+  border-left-color: #95a3b2;
+  color: #e2e7ee;
+}
+
+.appmenu__item_active {
+  border-left-color: #ea7835;
+  color: #fff;
+}
+
+.navmenu__container {
+  border: 1px solid #dfe2e5;
+  background-color: #fff;
+  box-shadow: 0 1px 0 0 #b7c0cd;
+  width: 25rem;
+}
+
+.navmenu__list {
+  background-color: #f8fafb;
+  box-shadow: 1px 0 0 0 #e2e7ee;
+  list-style: none;
+  height: 16rem;
+  width: 12rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navmenu__item {
+  border-bottom: 1px solid #dfe3e9;
+  color: #354052;
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+}
+
+
+.navmenu__item_default {
+  cursor: pointer;
+}
+
+.navmenu__item_default:hover,
+.navmenu__item_hover {
+  background: #fff;
+  border-left: 2px solid #b7c0cd;
+  box-shadow: 1px 0 0 0 #fff;
+  cursor: pointer;
+}
+
+.navmenu__item_active {
+  background: #fff;
+  box-shadow: 1px 0 0 0 #fff;
+  border-left: 2px solid #95a3b2;
+  font-weight: 600;
+}

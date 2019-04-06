@@ -1,0 +1,50 @@
+.toggle__input {
+  -webkit-appearance: none;
+  background-color: #c5d0de;
+  border-radius: 0.625rem;
+  box-shadow: none;
+  outline: none;
+  position: relative;
+  height: 1.25rem;
+  width: 2.25rem;
+}
+
+.toggle__input::before {
+  display: block;
+  content: ' ';
+  background-color: #fff;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  top: 0.125rem;
+  left: 0.125rem;
+  right: 1.125rem;
+  transition: 200ms all linear;
+}
+
+.toggle__input:not(:disabled):checked {
+  background-color: #ea7835;
+}
+
+.toggle__input:disabled {
+  background-color: #e9edf1;
+}
+
+.toggle__input:checked::before {
+  left: 1.125rem;
+  right: 0.125rem;
+}
+
+.toggle__text {
+  font-size: 0.875rem;
+}
+
+.toggle__input:not(:checked) + .toggle__text {
+  color: #354052;
+}
+
+.toggle__input:checked + .toggle__text {
+  color: #354052;
+  font-weight: 600;
+}

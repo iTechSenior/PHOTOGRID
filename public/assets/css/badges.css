@@ -1,0 +1,59 @@
+.custom-badge {
+  font-size: 0.625rem;
+  padding: 0.3125rem 0.5rem;
+}
+
+.custom-badge_orange {
+  background-color: #ea7835;
+  color: #fff;
+}
+
+.custom-badge_red {
+  background-color: #f85359;
+  color: #fff;
+}
+
+.custom-badge_green {
+  background-color: #39b54a;
+  color: #fff;
+}
+
+.custom-badge_grey {
+  background-color: #516173;
+  color: #fff;
+}
+
+.custom-badge_yellow {
+  background-color: #f5a308;
+  color: #fff;
+}
+
+.custom-badge_light-grey {
+  background-color: #e2e7ee;
+  color: #354052;
+}
+
+.custom-badge_purple {
+  background-color: #6b47db;
+  color: #fff;
+}
+
+.icon_badge {
+  color: #a8aab7;
+  position: relative;
+}
+
+.icon_badge:after{
+  background: #ea7835;
+  border-radius: 1rem;
+  color: #fff;
+  content: attr(data-count);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  min-width: 1.25rem;
+  text-align: center;
+  position: absolute;
+  left: 0.625rem;
+  top: -0.625rem;
+  padding: 0.25rem 0.375rem;
+}

@@ -1,0 +1,50 @@
+.custom-progress__container {
+  background-color: #e2e7ee;
+  position: relative;
+  height: 0.25rem;
+  width: 250px;
+}
+
+.custom-progress__bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.25rem;
+}
+
+.custom-progress__bar_red {
+  background-color: #f85359;
+}
+
+.custom-progress__bar_yellow {
+  background-color: #f5a308;
+}
+
+.custom-progress__bar_purple {
+  background-color: #6b47db;
+}
+
+.custom-progress__bar_green {
+  background-color: #39b54a;
+}
+
+.custom-progress__bar_orange {
+  background-color: #ea7835;
+}
+
+.custon-progress__title {
+  color: #7f8fa4;
+  font-size: 0.875rem;
+}
+
+.custom-progress__knob {
+  display: block;
+  background-color: #f8f9fb;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  top: -0.375rem;
+  transform: translateX(-50%);
+}
